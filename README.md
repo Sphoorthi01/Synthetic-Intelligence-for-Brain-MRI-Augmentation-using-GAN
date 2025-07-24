@@ -1,6 +1,8 @@
 # Synthetic-Intelligence-for-Brain-MRI-Augmentation-using-GAN
 This project aims to solve the challenge of early and accurate brain tumor detection using MRI scans. By integrating Deep Convolutional Generative Adversarial Networks (DCGANs) for data augmentation, a Convolutional Neural Network (CNN) for classification, and deploying the solution via Gradio and an Android mobile application, this project demonstrates a full pipeline from research to real-world usability.
 
+---
+
 ## 💡 Project Overview
 Detecting brain tumors from MRI images is a critical task in medical diagnostics. However, most publicly available datasets are limited in size and often suffer from class imbalance. This reduces the reliability of traditional deep learning models. To overcome this, this project introduces a deep learning solution that:
 
@@ -12,6 +14,8 @@ Detecting brain tumors from MRI images is a critical task in medical diagnostics
 
 - Embeds the Gradio interface inside an Android application, enabling mobile-based real-time predictions.
 
+---
+
 ## 🎯 Objectives of the Project
 - To tackle data scarcity and imbalance by generating realistic synthetic MRI images using DCGAN.
 
@@ -20,6 +24,8 @@ Detecting brain tumors from MRI images is a critical task in medical diagnostics
 - To create an accessible platform using Gradio for real-time inference.
 
 - To develop an Android mobile application integrating the web app for easy usage in real-life scenarios.
+
+---
 
 ## 🧪 Technologies and Tools Used
 - Deep Learning Frameworks: TensorFlow, Keras
@@ -31,6 +37,8 @@ Detecting brain tumors from MRI images is a critical task in medical diagnostics
 - Mobile Application: Android Studio (Java and XML)
 
 - Development Environment: Google Colab, Visual Studio Code, GitHub
+
+---
 
 ## 🧠 Methodology
 1. Data Augmentation using DCGAN
@@ -51,12 +59,16 @@ The trained .h5 model was integrated into a Gradio interface to provide a user-f
 5. Android Application Integration
 The Gradio interface was embedded into a native Android application using a WebView component. This allows the app to connect to the model’s backend in real-time, making the solution mobile and accessible.
 
+---
+
 ## 📊 Results and Discussion
 - CNN Classification Accuracy: 95.47%
 
 - Generator Loss (DCGAN): Stabilized between 3–6 during training.
 
 - Discriminator Loss (DCGAN): Stabilized between 0.2–0.6 indicating healthy adversarial training.
+
+---
 
 ## 📌 Confusion Matrix
 The confusion matrix demonstrates:
@@ -67,8 +79,12 @@ The confusion matrix demonstrates:
 
   - Balanced classification performance across classes.
 
+---
+
 ## 📉 Training Graphs
 Loss curves for both the generator and discriminator showed stable adversarial training behavior. The CNN model’s accuracy and loss graphs confirmed proper learning and generalization.
+
+---
 
 ## 📱 Android App Features
 - Lightweight app that uses WebView to connect to Gradio.
@@ -78,6 +94,8 @@ Loss curves for both the generator and discriminator showed stable adversarial t
 - Provides instant predictions without requiring local model inference.
 
 - Minimal and responsive UI with Internet permission handling.
+
+---
 
 ## 🚀 How to Run the Project
 ✅ Step 1: Train DCGAN
